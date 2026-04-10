@@ -169,9 +169,8 @@ section { padding: 120px 0; }
   border-radius: var(--radius); padding: 36px 32px;
   transition: all var(--transition);
   position: relative; overflow: hidden;
-  opacity: 0; transform: translateY(30px);
+  opacity: 1; transform: translateY(0);
 }
-.card.revealed { opacity: 1; transform: translateY(0); }
 .card:hover {
   background: var(--bg-card-hover);
   border-color: rgba(212, 160, 74, 0.12);
@@ -202,9 +201,8 @@ section { padding: 120px 0; }
 .philosophy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
 .philosophy-card {
   text-align: center; padding: 48px 32px;
-  opacity: 0; transform: translateY(30px);
+  opacity: 1; transform: translateY(0);
 }
-.philosophy-card.revealed { opacity: 1; transform: translateY(0); }
 .philosophy-num {
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem; font-weight: 700; color: var(--amber);
